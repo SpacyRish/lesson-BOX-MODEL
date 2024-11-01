@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Mount Caramel Bookclub
+    </title>
+    <!-- internal CSS -->
+    <style>
+        header {
+            background-color: coral;
+        }
+
+        #intro {
+            background-color: darkturquoise;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        #main-section h2 {
+            background-color: gainsboro;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 10px;
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        #best-seller-section,
+        footer {
+            background-color: khaki;
+        }
+
+        header,
+        nav,
+        #intro,
+        #main-section,
+        #best-seller-section,
+        footer {
+            border: 1px solid black;
+        }
+
+        header h1 {
+            color: rgb(244, 255, 240);
+            font-family: monospace;
+            font-size: xx-large;
+            margin: 30px;
+
+        }
+
+        tr:last-child {
+            color: crimson;
+        }
+
+        button {
+            background-color: crimson;
+            color: aliceblue;
+            font-weight: bold;
+            padding: 5px;
+            margin: 20px;
+
+        }
+
+        li a {
+            text-decoration: wavy;
+            color: azure;
+            font-weight: bold;
+        }
+
+        li a:hover {
+            color: blue;
+        }
+        .Teacher-info{
+            border-radius:10px ;
+            border: solid 1px;
+        }
+        nav li{
+            margin:10px ;
+            padding: 5px;
+            border: solid 1px;
+            border-radius: 10px;
+        }
+        .main-section-content{
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="grid-container">
+        <!-- heading -->
+        <header>
+            <h1>Mount Caramel Bookclub</h1>
+            <img src="https://images.pexels.com/photos/1370295/pexels-photo-1370295.jpeg?cs=srgb&dl=bookcase-books-bookshelf-1370295.jpg&fm=jpg"
+                alt="Image not Avalible" width="300">
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Online Recorces</a></li>
+                    <li><a href="">Reading Groups</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- intro section -->
+        <div id="intro">
+            <h2>Welcome to Mount Caramel Bookclub!</h2>
+            <p>The Mount Caramel Bookclub is an online community of book readers in Mount Caramel School.</p>
+        </div>
+        <!-- main section -->
+        <div id="main-section">
+            <!-- content 1 -->
+            <div id="Teachers" class="main-section-content">
+                <h2>Meet our Teachers!</h2>
+                <div class="Teacher-info">
+                    <img src="https://media.edutopia.org/styles/responsive_2880px_original/s3/masters/2018-11/iStock-1005285232_master.jpg"
+                        alt="" width="200">
+                    <h3>Ms. Emma</h3>
+                    <p>She teaches elementary school kids. She has a bachelor's degree in Elementary Education.</p>
+                </div>
+                <div class="Teacher-info">
+                    <img src="https://www.nea.org/sites/default/files/legacy/2020/04/new_teacher.jpeg" alt=""
+                        width="200">
+                    <h3> Ms. Caroline </h3>
+                    <p>She teaches secondary and high school kids. She has a <i>Master's of Arts.</i></p>
+                </div>
+
+            </div>
+            <!-- content 2 -->
+            <div id="book-reviews" class="main-section-content">
+                <h2> Book Review </h2>
+                <h3>Dairy of a Wimpy Kid No Brainer</h3>
+                <p><b>Johnathan:</b>"It was halarious!"</p>
+                <p><b>Lacy:</b>"Funniest book ever!"</p>
+
+            </div>
+            <div id="Related-videos" class="main-section-content">
+                <h2>Related Videos</h2>
+                <video src="book.mp4" controls width="500" autoplay></video>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZSzfU8Xu3Vg?si=f_nTM8OvLLqYDXtw"
+                    title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <!-- content 4 -->
+            <div id="Opening timings" class="main-section-content">
+                <h2>Opening Timings</h2>
+                <table>
+                    <tr>
+                        <td>Monday</td>
+                        <td> 11am-3pm</td>
+                    </tr>
+
+                    <tr>
+                        <td> Tuesday</td>
+                        <td>11am-3pm</td>
+                    </tr>
+
+                    <tr>
+                        <td> Wednesday</td>
+                        <td>11am-3pm</td>
+                    </tr>
+
+                    <tr>
+                        <td> Thursday</td>
+                        <td>11am-3pm</td>
+                    </tr>
+
+                    <tr>
+                        <td> Friday</td>
+                        <td>11am-3pm</td>
+                    </tr>
+
+                    <tr>
+                        <td> Saturday</td>
+                        <td>11am-8pm</td>
+                    </tr>
+
+                    <tr>
+                        <td> Sunday</td>
+                        <td>Closed</td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+        <!-- best seller section -->
+        <div id="best-seller-section">
+            <h2>Best Sellers </h2>
+            <ol>
+                <li><b>Charlie and The Chocolate Factory</b><i> By Roald Dahl</i></li>
+                <li><b>The Cat in The Hat</b><i> By Dr. Seuss</i></li>
+                <li><b>Dairy of a Wimpy Kid</b><i> By Jeff Kinney</i></li>
+            </ol>
+        </div>
+        <footer>
+            <p>Contact us Ms. Caroline</p>
+            <p>Phone no. +0899765543</p>
+            <address>Lodhi Estate -11003,Delhi</address>
+        </footer>
+        <button>ENQUIRY</button>
+    </div>
+</body>
+
+</html>
